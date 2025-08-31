@@ -1,15 +1,17 @@
 # INSTALL
 
 ## Chromium
-
-1. Download and unzip `ublock0.chromium.zip` ([latest release desirable](https://github.com/gorhill/uBlock/releases)).
-2. Rename the unzipped directory to `ublock`.
+1. Enter *chrome://flags* in Chromium/Chrome URL input.
+2. Search for *Allow legacy extension manifest versions*.
+3. Enable it and relaunch the browser.
+4. Download and unzip `ublock0.chromium.zip` ([latest release desirable](https://github.com/gorhill/uBlock/releases)).
+5. Rename the unzipped directory to `ublock`.
    - When you update manually, replace the **content** of the `ublock` folder with the **content** of the latest zipped version. This ensures all extension settings are preserved.
    - As long as the extension loads from the same folder path as it was originally installed, your settings will be kept.
-3. Open Chromium/Chrome and go to *Extensions*.
-4. Click to enable *Developer mode*.
-5. Click *Load unpacked extension...*.
-6. In the file selector dialog:
+6. Open Chromium/Chrome and go to *Extensions*.
+7. Click to enable *Developer mode*.
+8. Click *Load unpacked extension...*.
+9. In the file selector dialog:
    - Select the `ublock` directory you created.
    - Click *Open*.
 
